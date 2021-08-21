@@ -1,0 +1,19 @@
+<div class="layout-sendo">
+  <div class="container-main">
+    <div class="row">
+      <div class="col-md-3 col-12 mb-3 mt-3" *ngFor="let item of products">
+        <div class="card-sendo">
+          <img [src]="item.image" class="card-img-top" alt="...">
+          <div class="card-sendo-body">
+            <h5 class="sendo-title">{{item.name}}</h5>
+            <p class="price-final">{{item.final_price|number}}đ</p>
+            <div>
+              <span class="price">{{item.price|number}}đ</span>
+              <span class="percent">-{{item.promotion_percent/100|percent}}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

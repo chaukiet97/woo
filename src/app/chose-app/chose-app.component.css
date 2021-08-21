@@ -1,0 +1,205 @@
+.app{
+  height: 100%;
+  padding-top: 22vh;
+  padding-bottom: 22vh;
+}
+.card-sendo::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: "";
+  left: "";
+  width: 0;
+  height: 2px;
+  background-color: #ee2424;
+  transition: .2s linear;
+}
+.card-sendo-body{
+  padding: 16px 8px;
+}
+.card-sendo-body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: "";
+  bottom: "";
+  left: 0;
+  width: 2px;
+  height: 0;
+  background-color: #ee2424;
+  transition: .2s linear;
+}
+.card-sendo-body::after {
+    content: "";
+    position: absolute;
+    top: "";
+    right: 0;
+    bottom: 0;
+    left: "";
+    width: 2px;
+    height: 0;
+    background-color: #ee2424;
+    transition: .2s linear;
+}
+.card-sendo::after {
+  content: "";
+  position: absolute;
+  top: "";
+  right: "";
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #ee2424;
+  transition: .2s linear;
+}
+.card-sendo:hover::after, .card-sendo:hover::before {
+  transition-delay: "";
+  width: 100%;
+  height: "";
+}
+.card-sendo :hover.card-sendo-body::after, .card-sendo :hover.card-sendo-body::before {
+  transition-delay: .2s;
+  width: "";
+  height: 100%;
+}
+.sendo-title{
+  font-size: 26px;
+  color: #ee2424!important;
+}
+/* shopee */
+.card-shopee::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: "";
+  left: "";
+  width: 0;
+  height: 2px;
+  background-color: #ee4d2d;
+  transition: .2s linear;
+}
+.card-shopee-body{
+  padding: 16px 8px;
+}
+.card-shopee-body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: "";
+  bottom: "";
+  left: 0;
+  width: 2px;
+  height: 0;
+  background-color: #ee4d2d;
+  transition: .2s linear;
+}
+.card-shopee-body::after {
+    content: "";
+    position: absolute;
+    top: "";
+    right: 0;
+    bottom: 0;
+    left: "";
+    width: 2px;
+    height: 0;
+    background-color: #ee4d2d;
+    transition: .2s linear;
+}
+.card-shopee::after {
+  content: "";
+  position: absolute;
+  top: "";
+  right: "";
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #ee4d2d;
+  transition: .2s linear;
+}
+.card-shopee:hover::after, .card-shopee:hover::before {
+  transition-delay: "";
+  width: 100%;
+  height: "";
+}
+.card-shopee :hover.card-shopee-body::after, .card-shopee :hover.card-shopee-body::before {
+  transition-delay: .2s;
+  width: "";
+  height: 100%;
+}
+.shopee-title{
+  font-size: 26px;
+  color: #ee4d2d!important;
+}
+/* tiki */
+.card-tiki::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: "";
+  left: "";
+  width: 0;
+  height: 2px;
+  background-color: #00aaf0;
+  transition: .2s linear;
+}
+.card-tiki-body{
+  padding: 16px 8px;
+}
+.card-tiki-body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: "";
+  bottom: "";
+  left: 0;
+  width: 2px;
+  height: 0;
+  background-color: #00aaf0;
+  transition: .2s linear;
+}
+.card-tiki-body::after {
+    content: "";
+    position: absolute;
+    top: "";
+    right: 0;
+    bottom: 0;
+    left: "";
+    width: 2px;
+    height: 0;
+    background-color: #00aaf0;
+    transition: .2s linear;
+}
+.card-tiki::after {
+  content: "";
+  position: absolute;
+  top: "";
+  right: "";
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #00aaf0;
+  transition: .2s linear;
+}
+.card-tiki:hover::after, .card-tiki:hover::before {
+  transition-delay: "";
+  width: 100%;
+  height: "";
+}
+.card-tiki :hover.card-tiki-body::after, .card-tiki :hover.card-tiki-body::before {
+  transition-delay: .2s;
+  width: "";
+  height: 100%;
+}
+.tiki-title{
+  font-size: 26px;
+  color: #00aaf0!important;
+}
+.card-sendo, .card-shopee, .card-tiki{
+  cursor: pointer;
+}

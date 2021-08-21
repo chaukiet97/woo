@@ -1,0 +1,37 @@
+.card-sendo {
+  border-radius: 15px;
+  box-shadow: 0 9px 30px -6px rgb(63 63 63 / 30%);
+  max-width: 100%;
+  overflow: hidden;
+}
+.card-sendo-body{
+  padding: 16px 8px;
+}
+
+.sendo-title{
+  font-size: 32px;
+  color: #ee2624!important;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  min-height: 50px;
+}
+.price-final{
+  color: #ee2624;
+  font-weight: 700;
+  font-size: 20px;
+}
+.price{
+  color: #b7bbbf;
+  text-decoration: line-through;
+  font-size: 16px;
+}
+.percent{
+  margin-left: .4rem;
+  color: #ee2624;
+  font-size: 16px;
+}
